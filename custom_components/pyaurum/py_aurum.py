@@ -75,6 +75,7 @@ class Aurum:
                 data[idx] =  {sensor: value}
             idx += 1
         self.data = data
+        _LOGGER.debug("Data: %s", self.data)
 
     async def close_connection(self):
         """Close the Aurum connection."""
