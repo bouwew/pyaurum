@@ -71,11 +71,9 @@ class Aurum:
                 else:
                     value = float("{:.2f}".format(round(float(value), 2)))
                 
-            sensors["sensor"] = sensor
-            sensors["value"] = value
-            data[idx] = sensors
+            if value != 0:
+                data[idx] =  {sensor: value}
             idx += 1
-
         self.data = data
 
     async def close_connection(self):
