@@ -2,7 +2,7 @@
 import ipaddress
 import re
 
-from py_aurum import Aurum
+from .py_aurum import Aurum
 import voluptuous as vol
 
 from homeassistant import config_entries, exceptions
