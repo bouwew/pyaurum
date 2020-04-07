@@ -1,0 +1,9 @@
+{
+    "domain": "pyaurum",
+    "name": "Aurum for Home Assistant",
+    "documentation": "https://github.com/bouwew/aurum-ha",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@bouwew"],
+    "config_flow": true
+}
