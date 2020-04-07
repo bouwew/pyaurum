@@ -3,7 +3,7 @@ import asyncio
 from datetime import timedelta
 import logging
 
-from py_aurum import Aurum
+from .py_aurum import Aurum
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_HOST, CONF_TYPE
